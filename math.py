@@ -4,6 +4,9 @@ def addition(x,y):
 
 #subtract implementation
 def subtract(x,y):
+          if(x<y):
+              return error
+                  
         return x-y
 
 #Multiplication implementation
